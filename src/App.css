@@ -5,6 +5,59 @@
   text-align: center;
 }
 
+.app {
+  display: grid;
+  max-width: 640px;
+  margin: 0 auto;
+  gap: 1rem;
+  text-align: left;
+}
+
+.app h1 {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.app form {
+  display: grid;
+  gap: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #555;
+  border-radius: 8px;
+}
+
+.app label {
+  font-weight: 700;
+}
+
+.app input,
+.app select {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.6rem;
+  font: inherit;
+}
+
+.app section {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.app article {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #555;
+  border-radius: 8px;
+}
+
+.app article h2,
+.app article p {
+  margin: 0;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
